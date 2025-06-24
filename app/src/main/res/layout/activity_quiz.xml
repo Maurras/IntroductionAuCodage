@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:gravity="center"
-    android:padding="32dp"
+    android:padding="24dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:text="Bienvenue ! Choisis une activité :"
+    <TextView android:id="@+id/questionText"
         android:textSize="20sp"
-        android:layout_marginBottom="24dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/btnQuiz"
-        android:text="✅ Lancer le Quiz"
-        android:layout_width="wrap_content"
+    <RadioGroup android:id="@+id/optionsGroup"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginTop="16dp" />
 
-    <Button
-        android:id="@+id/btnTri"
-        android:text="🔢 Lancer le Tri de Nombres"
+    <Button android:id="@+id/validateButton"
+        android:text="Valider"
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
 </LinearLayout>

@@ -23,5 +23,17 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".QuizActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MonPremierProgrammeALIsep">
+        </activity>
+
+        <activity
+            android:name=".TriActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MonPremierProgrammeALIsep">
+        </activity>
+
     </application>
 </manifest>
